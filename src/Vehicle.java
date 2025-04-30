@@ -10,7 +10,6 @@ public class Vehicle {
         model = mo;
         year = y;
         fuel = f;
-        // fix below
         if (fuel > 0) {
             operational = true;
         } else {
